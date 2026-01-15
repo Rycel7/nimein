@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NimeIn - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left"><a href="index.html" class="logo">NIME<span>IN</span></a></div>
+            <div class="nav-right">
+                <div class="search-form">
+                    <input type="text" id="searchInput" placeholder="Cari anime...">
+                    <button class="btn-search-square"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="genre-filter">
+        <div class="genre-container">
+            <button class="genre-btn active" data-genre="All">All</button>
+            <button class="genre-btn" data-genre="Action">Action</button>
+            <button class="genre-btn" data-genre="Fantasy">Fantasy</button>
+        </div>
+    </div>
+    <div class="nav-spacer"></div>
+    <main class="container"><div class="anime-grid" id="animeGrid"></div></main>
+    <script src="main.js"></script>
+</body>
+</html>
